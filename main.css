@@ -1,3 +1,173 @@
-h1 {
-    color: red;
+body {
+    background-color: lightgray;
+}
+
+#Add{
+    background-color:#2185D0;
+    color: white;
+    width: 100px;
+    height: 35px;
+    text-decoration:inherit;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.secondpanel{
+    width:400px;
+    height:150px;
+    float:left;
+    margin-left:780px;
+    margin-top:-182px;
+    padding-top: 15px;
+    border-radius:5px;
+    background-color: white;
+    padding-bottom:10px;
+   
+}
+#Name{
+    width: 590px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    border-right-style: hidden;
+}
+.amount{
+    display: inline-block;
+    line-height: 1;
+    margin: 2px;
+    background-color: #E8E8E8;
+    padding: .4000em .580em;
+    color: rgba(0,0,0,.6);
+    font-weight: 700;
+    border: none;
+    border-radius: .28571429rem;
+    transition: background .1s ease;
+}
+.good{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 14px;
+}
+#minus{
+    margin-left: 200px; 
+    background-color:lightcoral;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 32px;
+    height: 35px;
+}
+#plus{
+    background-color:limegreen;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 32px;
+    height: 35px;
+}
+#bought{
+    margin-left: 200px; 
+    background-color:#E8E8E8;
+    color: #dark;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+}
+#cross{
+    background-color:crimson; 
+    color: #FFF;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+}
+.addingrow{
+    border-top-left-radius: 5px;
+    border-top-right-radius:  5px;
+    margin-top: 100px;
+    margin-left: 30px;
+    border-top:1px solid lightgrey;
+    padding-right: 0px;
+    background-color: white;
+    height: 60px;
+    width: 730px;
+}
+#leftline{
+  
+}
+#Left{
+    margin-left: 15px;
+    margin-top: -5px;
+    font-size: 22px;
+    font-weight:  bolder;
+}
+.row{
+    margin-left: 30px;
+    border-top:1px solid lightgrey;
+    height: 40px;
+    padding-right: 0px;
+    background-color: white;
+    width: 730px;
+}
+.secrow{
+    border-top:1px solid lightgrey;
+    height: 40px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: white;
+    width: 380px;
+}
+#bought2{
+    margin-left: -5px;
+    margin-top: 45px;
+    font-size: 22px;
+    font-weight:  bolder;
+}
+.thirdrow{
+    margin-left: 10px;
+    border-top:1px solid lightgrey;
+    border-bottom:1px solid lightgrey;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: white;
+    width: 380px;
+}
+.lastrow{
+    margin-left: 30px;
+    border-top:1px solid lightgrey;
+    height: 40px;
+    padding-right: 0px;
+    background-color: white;
+    width: 730px;
+     border-bottom-left-radius: 5px;
+    border-bottom-right-radius:  5px;
+}
+#leftgood{
+    display: inline-block;
+    background-color: lightgrey;
+    height:25px;
+    width:100px;
+    text-align: left;
+    
+}
+#boughtlabel{
+    margin-top: 35px;
+    border-top:1px solid lightgrey;
+    font-size: 22px;
+    font-weight:  bolder;
+}
+
+#leftamount{
+    background-color: orange;
+    color:white;
+    width: 10px;
+    height: 10px;
+    padding:1px 7px;
+    margin-left:-25px;
+    border-radius:15px;
 }
