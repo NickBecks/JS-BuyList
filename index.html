@@ -2,57 +2,56 @@
 <html>
 <head lang="uk">
     <title>My Buylist</title>
-    <meta name="description" content=”Best Buylist">
-    <meta name="keywords" content="buy buylist goods food">
-    <meta name="author" content=”Nick">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
     
-<body>
-    <div class = "addingrow">
-           <input type="text” name="Name" id = "Name" width = "100px"><input type="button" id = "Add" value= "Додати"></button>
-     </div>                                                                                                 
-                                                                                                     
-      <div class="row">
-       <span class="good">Помідори</label>
-       <input type="button" id = "minus" value= "-"></button>
+<body> 
+    
+<div class = "addingrow">
+    <input id="Name"  type="text" placeholder="Назва товару"/>
+    <button id="Add">Додати</button>
+</div>
+ 
+    <div class="row">
+       <span class="good">Помідори</span>
+       <button id = "minus">-</button>
        <span class="amount">1</span>                                           
        <button id = "plus">+</button>
        <button id = "bought">Куплено</button>
        <button id = "cross" >x</button>
                            </div>
-                                   
-       <div class="row">                    
-       <span class="good">Печиво&nbsp&nbsp&nbsp&nbsp</label>
-       <input type="button" id = "minus" value= "-"></button>
+    
+     <div class="row">                    
+       <span class="good">Печиво</span>
+       <button id = "minus">-</button>
        <span class="amount">1</span>                                     
        <button id = "plus">+</button>
        <button id = "bought">Куплено</button>
        <button id = "cross" >x</button>
        </div>
-       <div class="lastrow">
-       <span class="good">Сир&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-       <input type="button" id = "minus" value= "-"></button>
+       
+    <div class="lastrow">
+       <span class="good">Сир</span>
+       <button id = "minus" >-</button>
        <span class="amount">1</span>                                    
        <button id = "plus">+</button>
        <button id = "bought">Куплено</button>
        <button id = "cross" >x</button>
        </div>
-</div>
-                                                   
+    
         <div class = "secondpanel">
             <span id="Left">Залишилося</span>
-             <br />
             <div class="secrow">
-                               <span id="leftgood">Помідори&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span ><span id="leftamount">1</span>&nbsp
-                                                  <span id="leftgood">Печиво&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span><span id="leftamount">1</span>&nbsp
-                                                                     <span id="leftgood">Сир</span><span id="leftamount">1</span>
+                               <span id="leftgood">Помідори<span id="leftamount">1</span></span>
+                               <span id="leftgood">Печиво<span id="leftamount">1</span></span>
+                               <span id="leftgood">Сир<span id="leftamount">1</span></span>
                            </div>
                                <div class="thirdrow">
                                              <span id="bought2">Куплено</span>      
                                                     </div>
        </div>
-            
+                                                               
+<script	type="text/javascript" src="main.js">	</script>            
 </body>
 </html>
